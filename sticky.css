@@ -1,0 +1,32 @@
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: #222;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    gap: 20px;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+/* Section Styling */
+section {
+    height: 100vh;
+    padding: 40px;
+    font-size: 20px;
+}
